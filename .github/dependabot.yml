@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'  # Location of the package.json file
+    schedule:
+      interval: 'weekly'  # Update frequency
+  - package-ecosystem: 'pip'
+    directory: '/'  # Location of the requirements.txt file
+    schedule:
+      interval: 'weekly'  # Update frequency
